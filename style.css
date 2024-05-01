@@ -19,6 +19,23 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.item{
+  flex: 1;
+  padding:7px;
+}
+
+header h1{
+  text-align: right;
+}
+
+header nav{
+  text-align: left;
+  padding: 30px;
 }
 
 /* Containers */
@@ -35,6 +52,25 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+.about-section{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.align-text-to-left{
+  text-align: left;
+}
+
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#portfolio h2{
+  width:100%;
 }
 
 /* Paragraphs */
